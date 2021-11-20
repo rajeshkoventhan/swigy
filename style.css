@@ -698,7 +698,7 @@ p{
   height: 20px;
   background:#fc8019;
   position: fixed;
-  right:10;
+  right:0;
   top:615;
   display: flex;
   opacity: 0;
