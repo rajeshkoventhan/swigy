@@ -148,7 +148,10 @@ Swiggy Instamart</p>
      </div>   
      <p class="referral">Have a referral code?</p>   
      <h4 class="continue">CONTINUE</h4>     
-     <p class="lastsignup">By creating an account, I accept the Terms & Conditions & Privacy<br> Policy</p>                          
+     <p class="lastsignup">By creating an account, I accept the Terms & Conditions & Privacy<br> Policy</p>
+    <div class="down">
+        <i class="orange fas fa-chevron-down"></i>
+     </div
 <script>
 var btnl=document.querySelector(".btnl");
 var container=document.querySelector(".container");
@@ -161,6 +164,18 @@ var container1=document.querySelector(".container1");
 btns.addEventListener("click",()=>{
 container1.classList.toggle("active")    
 });
+        
+ const down=document.querySelector(".down");
+
+window.addEventListener("scroll", ()=>{
+ if(window.pageYOffset > 100) {
+    down.classList.add("active");
+ } 
+ else{
+  down.classList.remove("active");   
+ }
+ 
+})         
 
 </script>
 </body>
