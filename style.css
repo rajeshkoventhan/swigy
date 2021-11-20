@@ -692,6 +692,29 @@ p{
   font-weight: 500;
 }
 
+
+.down{
+  width: 20px;
+  height: 20px;
+  background:#fc8019;
+  position: fixed;
+  right:10;
+  top:615;
+  display: flex;
+  opacity: 0;
+}
+
+.orange{
+  position: absolute;
+  right: 3;
+  top:3;
+  color: white;
+}
+
+.active{
+ opacity:1;
+}
+
 @media  (min-width: 768px){
 .btns
 {
